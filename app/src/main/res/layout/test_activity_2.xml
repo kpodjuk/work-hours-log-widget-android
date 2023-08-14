@@ -10,8 +10,6 @@
         android:id="@+id/textView"
         android:layout_width="400dp"
         android:layout_height="210dp"
-        android:rotationX="3"
-        android:rotationY="51"
         android:text="@string/textview"
         android:textAlignment="center"
         android:textSize="50sp"
@@ -26,7 +24,6 @@
         android:layout_height="360dp"
 
 
-        android:rotationY="30"
         android:text="@string/log_work_hours"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

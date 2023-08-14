@@ -10,7 +10,6 @@ import androidx.core.app.ComponentActivity
 
 @SuppressLint("RestrictedApi")
 class MainActivity : ComponentActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -20,6 +19,7 @@ class MainActivity : ComponentActivity() {
         // handle button press
         val button: Button = findViewById(R.id.button)
         button.setOnClickListener {
+            // send API request to google sheets
             Log.i("MainActivity", "Button pressed!")
             val resultTextView: TextView = findViewById(R.id.textView)
             resultTextView.text = "Wylosowano: ${(0..6).random()}"
@@ -28,3 +28,5 @@ class MainActivity : ComponentActivity() {
 
 
 }
+
+

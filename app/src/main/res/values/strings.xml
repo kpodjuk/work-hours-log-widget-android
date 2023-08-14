@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Work time log widget android</string>
-    <string name="textview">textview</string>
-    <string name="log_work_hours">log_work_hours</string>
+
+
+    <string name="textview">Tymczasem Cordova 🤣🤣🤣🤣</string>
+    <string name="log_work_hours">log_<b>work</b>_hours</string>
 </resources>
