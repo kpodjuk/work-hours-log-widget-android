@@ -6,27 +6,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="400dp"
-        android:layout_height="210dp"
-        android:rotationX="3"
-        android:rotationY="51"
-        android:text="@string/textview"
-        android:textAlignment="center"
-        android:textSize="50sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5"
-        tools:ignore="MissingConstraints" />
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView"-->
+    <!--        android:layout_width="400dp"-->
+    <!--        android:layout_height="210dp"-->
+    <!--        android:rotationX="3"-->
+    <!--        android:text="@string/textview"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textSize="50sp"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/button"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.5"-->
+    <!--        tools:ignore="MissingConstraints" />-->
 
     <Button
         android:id="@+id/button"
-        android:layout_width="240dp"
+        android:layout_width="250dp"
         android:layout_height="360dp"
 
-
-        android:rotationY="30"
         android:text="@string/log_work_hours"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,7 +32,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.8" />
 
-    <!--        Moves the element perfectly in the middle -->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

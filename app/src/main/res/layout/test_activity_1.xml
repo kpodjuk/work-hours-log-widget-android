@@ -4,19 +4,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="400dp"
-        android:layout_height="210dp"
-        android:text="@string/textview"
+        android:layout_width="421dp"
+        android:layout_height="224dp"
+        android:lineSpacingExtra="14sp"
+        android:shadowColor="#100B0B"
+        android:shadowDx="50"
+        android:shadowDy="50"
+        android:shadowRadius="100"
+        android:text="@string/textview1"
         android:textAlignment="center"
-        android:textSize="50sp"
+        android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintVertical_bias="0.232"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-5dp" />
 
     <Button
         android:id="@+id/button"
@@ -24,6 +31,7 @@
         android:layout_height="360dp"
 
 
+        android:backgroundTint="#FF9800"
         android:text="@string/log_work_hours"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
