@@ -1,8 +1,25 @@
 <resources>
-    <string name="app_name">Work time log widget android</string>
+
+    <string name="app_name">Work time log</string>
+
+    <!--    <string name="editTextText1">Logo!</string>-->
+    <!--    <string name="editTextText2"><b>Przyszedłeś o:</b> 12:12</string>-->
+    <!--    <string name="editTextText3"><b>Wyszedłeś o:</b> 18:12</string>-->
+
+    <string name="buttonText">Log work hours!</string>
 
 
-    <string name="textview">Tymczasem Cordova 🤣🤣🤣🤣</string>
-    <string name="log_work_hours">log_<b>work</b>_hours</string>
-    <string name="textview1">textview1</string>
+    <string name="statusText1">
+
+           <b>Zacząłeś o:</b> 12:53\n\n
+        <b>Wyszedłeś o: </b>17:53\n\n
+        <b>Przepracowano: </b>8:53\n\n
+
+    </string>
+
+    <string name="statusText2">statusText2</string>
+    <string name="statusText3">statusText3</string>
+    <string name="log_work_hours">log_work_hours</string>
+
+
 </resources>
