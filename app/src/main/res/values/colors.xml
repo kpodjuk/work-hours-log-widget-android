@@ -3,5 +3,6 @@
     // main colors
     <color name="buttonBackground">#FFE0B2</color>
     <color name="layoutBackground">#E3F2FD</color>
+    <color name="fontColor">#5A5A5A</color>
 
 </resources>
