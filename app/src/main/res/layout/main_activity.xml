@@ -1,36 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:clickable="true">
 
-    <EditText
-        android:id="@+id/editTextText1"
-        style="@android:style/Widget.DeviceDefault.Light.AutoCompleteTextView"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:inputType="text"
-        android:text="LOGO/SMTHING"
-        android:textAlignment="center" />
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView"-->
+    <!--        android:layout_width="400dp"-->
+    <!--        android:layout_height="210dp"-->
+    <!--        android:rotationX="3"-->
+    <!--        android:text="@string/textview"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textSize="50sp"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/button"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.5"-->
+    <!--        tools:ignore="MissingConstraints" />-->
 
-    <EditText
-        android:id="@+id/editTextText2"
-        style="@android:style/Widget.DeviceDefault.Light.AutoCompleteTextView"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:inputType="text"
-        android:text="LOGO/SMTHING"
-        android:textAlignment="center" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="260dp"
+        android:layout_height="140dp"
 
-    <EditText
-        android:id="@+id/editTextText3"
-        style="@android:style/Widget.DeviceDefault.Light.AutoCompleteTextView"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:inputType="text"
-        android:text="LOGO/SMTHING"
-        android:textAlignment="center" />
+        android:text="@string/log_work_hours"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
 
-</LinearLayout>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="260dp"
+        android:layout_height="140dp"
 
+        android:clickable="false"
+        android:text="@string/log_work_hours"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
